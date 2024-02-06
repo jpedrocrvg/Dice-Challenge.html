@@ -6,6 +6,7 @@ body {
 }
 
 .container {
+    display: block;
     text-align: center; 
     padding: 90px;
 }
@@ -38,6 +39,7 @@ body {
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
     .container {
+        flex-direction: column;
         padding: 50px; /* Reduzir o preenchimento para dispositivos móveis */
     }
 

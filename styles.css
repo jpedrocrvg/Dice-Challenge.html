@@ -36,20 +36,20 @@ body {
 }
 
 /* Estilos para dispositivos móveis */
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     .container {
-        padding: 50px; 
+        padding: 50px; /* Reduzir o preenchimento para dispositivos móveis */
     }
 
     .dice-container {
         flex-direction: column;
-        align-items: center; 
+        align-items: center; /* Centralizar verticalmente */
     }
 
     .dice {
         height: 130px;
         width: 130px;
         margin-top: 30px;
-        margin-right: 0; 
+        margin-right: 0; /* Remover margem direita */
     }
 }
